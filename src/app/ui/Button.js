@@ -2,16 +2,21 @@ import React from 'react';
 import Link from 'next/link';
 
 const Button = (props) => {
-  const href = props.href;
-  const variant = props.variant;
-  const content = props.children;
+  const { href, variant, children } = props;
+  const defaultVariant = variant || 'light'; // Default variant is light
+
+  const variantClasses = {
+    light: 'bg-light hover:bg-gray-light text-dark',
+    dark: 'bg-dark hover:bg-dark text-gray-light',
+    orange: 'bg-orange hover:bg-orange-dark text-light',
+  };
 
   const buttonContent = (
     <button
       type='button'
-      className='px-3 py-1 rounded bg-light hover:bg-gray-light text-gray-dark'
+      className={'px-3 py-1 rounded ' + variantClasses[defaultVariant]}
     >
-      {content} <i className="icon bi-arrow-up-right"></i>
+      {children} <i className="icon bi-arrow-up-right"></i>
     </button>
   );
 
