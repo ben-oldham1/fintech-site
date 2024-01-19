@@ -8,13 +8,15 @@ module.exports = {
   darkMode: 'media',
   theme: {
     colors: {
-      'gray-dark': '#1E1E1E',
-      'gray-light': '#DDD6D4',
-      'light': '#ffffff',
+      'light': '#FAFAFA',
+      'gray-light': '#F4F4F4',
+      'dark': '#1E1E1E',
+      'gray-dark': '#121212',
       'orange': '#FF3C00',
+      'orange-dark': '#f03800',
     },
     fontFamily: {
-      sans: ['Poppins', 'sans-serif'],
+      sans: ['var(--font-poppins)'],
       serif: ['Merriweather', 'serif'],
     },
     extend: {
