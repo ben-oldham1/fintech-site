@@ -1,8 +1,9 @@
-import Head from 'next/head';
-
 import { Poppins } from 'next/font/google'
 import './globals.css'
 import "bootstrap-icons/font/bootstrap-icons.css";
+
+import NavBar from "@/components/NavBar";
+import Footer from "@/components/Footer";
 
 export const metadata = {
   title: 'Create Next App',
@@ -20,7 +21,13 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en" className={`${poppins.variable}`}>
       <body>
+
+        <NavBar />
+
         {children}
+
+
+        <Footer />
       </body>
     </html>
   )
