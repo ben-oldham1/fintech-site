@@ -5,10 +5,10 @@
         "./src/*"
       ],
       "@/components/*": [
-        "./src/app/components/*"
+        "src/components/*"
       ],
       "@/ui/*": [
-        "./src/app/ui/*"
+        "src/ui/*"
       ]
     }
   }

@@ -14,7 +14,7 @@ const Button = (props) => {
   const buttonContent = (
     <button
       type='button'
-      className={'px-3 py-1 rounded ' + variantClasses[defaultVariant]}
+      className={'px-5 py-1 rounded ' + variantClasses[defaultVariant]}
     >
       {children} <i className="icon bi-arrow-up-right"></i>
     </button>
