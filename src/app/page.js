@@ -1,7 +1,5 @@
 import Image from "next/image";
 
-import NavBar from "@/components/NavBar";
-import Footer from "@/components/Footer";
 import StatCard from "@/ui/StatCard";
 import Button from "@/ui/Button";
 import FadeIn from "@/ui/FadeIn";
@@ -9,14 +7,12 @@ import FadeIn from "@/ui/FadeIn";
 export default function Home() {
   return (
     <>
-      <NavBar />
-
       {/* THE HERO SECTION */}
       <section className='bg-gray-light'>
         <div className='h-[calc(100vh-56px)] px-10 grid grid-cols-1 items-center gap-4 md:grid-cols-5'>
           <div className="md:col-span-3">
-            <p className='text-xl font-light'>iPhone app of the year (2024)</p>
-            <h1 className='text-6xl my-2 leading-tight font-bold'>Take charge of your financial future with confidence and ease</h1>
+            <p className='text-xl font-light'><i class="bi bi-award"></i> iPhone app of the year (2024)</p>
+            <h1 className='text-5xl my-2 leading-tight font-bold'>Take charge of your financial future with confidence and ease</h1>
             <p className="text-md font-light">14 day free trial</p>
 
             <div className="mt-16 flex flex-row gap-x-2">
@@ -90,8 +86,6 @@ export default function Home() {
         </div>
 
       </section>
-
-      <Footer />
     </>
   )
 }
