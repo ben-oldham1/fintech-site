@@ -3,13 +3,13 @@ module.exports = {
   content: [
     './src/pages/**/*.{js,ts,jsx,tsx,mdx}',
     './src/components/**/*.{js,ts,jsx,tsx,mdx}',
+    './src/ui/**/*.{js,ts,jsx,tsx,mdx}',
     './src/app/**/*.{js,ts,jsx,tsx,mdx}',
   ],
-  darkMode: 'media',
   theme: {
     colors: {
       'light': '#FAFAFA',
-      'gray-light': '#F4F4F4',
+      'gray-light': '#cfcfcf',
       'dark': '#1E1E1E',
       'gray-dark': '#121212',
       'orange': '#FF3C00',
