@@ -14,7 +14,6 @@ export default function FilterRow(props) {
             <FilterBadge label="All articles" filterId={"All articles"} active={activeFilter === "All articles"} onClick={handleFilterClick} />
             <FilterBadge label="Crypto" filterId={"Crypto"} active={activeFilter === "Crypto"} onClick={handleFilterClick} />
             <FilterBadge label="Stocks" filterId={"Stocks"} active={activeFilter === "Stocks"} onClick={handleFilterClick} />
-            <FilterBadge label="ETFs" filterId={"ETFs"} active={activeFilter === "ETFs"} onClick={handleFilterClick} />
             <FilterBadge label="Markets" filterId={"Markets"} active={activeFilter === "Markets"} onClick={handleFilterClick} />
         </div>
     )
