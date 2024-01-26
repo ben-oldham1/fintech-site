@@ -4,7 +4,7 @@ const FilterBadge = (props) => {
   const isActive = props.active;
 
   const activeStyle = "bg-orange border-orange border-2 text-light";
-  const inactiveStyle = "border-2 border-dark text-dark hover:bg-light";
+  const inactiveStyle = "border-2 border-dark text-dark hover:bg-gray-light";
 
   const handleClick = () => {
     props.onClick(props.filterId);
