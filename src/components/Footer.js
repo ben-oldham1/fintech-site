@@ -15,7 +15,7 @@ const Footer = () => {
                 </div>
 
                 <div className="flex flex-row justify-between text-md mb-3">
-                    <div class="flex flex-row gap-5 text-light">
+                    <div className="flex flex-row gap-5 text-light">
                         <Image src={'/img-assets/app-store.svg'} width={0} height={0} style={{ width: 'auto', height: '40px' }} />
                         <Image src={'/img-assets/play-store.svg'} width={0} height={0} style={{ width: 'auto', height: '40px' }} />
                     </div>
@@ -23,7 +23,7 @@ const Footer = () => {
                     <EmailSignup />
                 </div>
 
-                <div class="flex flex-row gap-5 justify-center">
+                <div className="flex flex-row gap-5 justify-center">
                     <CopyrightLabel />
                 </div>
 

@@ -11,7 +11,7 @@ export default function Home() {
       <section className='bg-gray-light'>
         <div className='h-[calc(100vh-56px)] px-10 grid grid-cols-1 items-center gap-4 md:grid-cols-5'>
           <div className="md:col-span-3">
-            <p className='text-xl font-light'><i class="bi bi-award"></i> iPhone app of the year (2024)</p>
+            <p className='text-xl font-light'><i className="bi bi-award"></i> iPhone app of the year (2024)</p>
             <h1 className='text-5xl my-2 leading-tight font-bold'>Take charge of your financial future with confidence and ease</h1>
             <p className="text-md font-light">14 day free trial</p>
 

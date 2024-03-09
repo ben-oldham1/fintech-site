@@ -10,7 +10,7 @@ export default function FilterRow(props) {
     };
 
     return (
-        <div class="flex space-x-2 space-y-2 flex-wrap justify-center items-baseline mb-5">
+        <div className="flex space-x-2 space-y-2 flex-wrap justify-center items-baseline mb-5">
             <FilterBadge label="All articles" filterId={"All articles"} active={activeFilter === "All articles"} onClick={handleFilterClick} />
             <FilterBadge label="Crypto" filterId={"Crypto"} active={activeFilter === "Crypto"} onClick={handleFilterClick} />
             <FilterBadge label="Stocks" filterId={"Stocks"} active={activeFilter === "Stocks"} onClick={handleFilterClick} />

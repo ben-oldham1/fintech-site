@@ -6,8 +6,8 @@ export default function Article() {
 
     return (
         <>
-            <div class="flex flex-row m-12 mx-16 lg:mx-32">
-                <div class="basis-3/5">
+            <div className="flex flex-row m-12 mx-16 lg:mx-32">
+                <div className="basis-3/5">
                     <header className='mb-5'>
                         <div className='mb-5'>
                             <span className="border-2 border-dark text-dark py-1 px-3 rounded-full text-sm font-bold">Cryptocurrencies</span>
@@ -15,7 +15,7 @@ export default function Article() {
 
                         <h1 className='text-4xl font-bold mb-3'>A beginners guide to blockchain</h1>
 
-                        <div class="flex justify-between ...">
+                        <div className="flex justify-between ...">
                             <p>By John Smith</p>
                             <p>24 Jan 2024</p>
                         </div>
@@ -84,7 +84,7 @@ export default function Article() {
 
                 </div>
 
-                <div class="basis-2/5 px-10">
+                <div className="basis-2/5 px-10">
                     <aside className='fixed'>
 
                         <div>
