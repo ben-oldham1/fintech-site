@@ -23,7 +23,7 @@ export default function Features() {
                         <AssetCard
                             title="Stocks"
                             body="Invest in leading companies across various industries and sectors with ease."
-                            iconClass="bi bi-buildings"
+                            icon="stocks"
                         />
                     </FadeIn>
 
@@ -31,7 +31,7 @@ export default function Features() {
                         <AssetCard
                             title="Crypto"
                             body="Explore the world of digital currencies, including Bitcoin and Ethereum."
-                            iconClass="bi bi-coin"
+                            icon="crypto"
                         />
                     </FadeIn>
 
@@ -39,7 +39,7 @@ export default function Features() {
                         <AssetCard
                             title="Forex"
                             body="Trade in the largest and most liquid market globally."
-                            iconClass="bi bi-globe"
+                            icon="forex"
                         />
                     </FadeIn>
 
@@ -47,7 +47,7 @@ export default function Features() {
                         <AssetCard
                             title="ETFs"
                             body="Access a diverse range of flexabile and stable investment options."
-                            iconClass="bi bi-graph-up"
+                            icon="etf"
                         />
                     </FadeIn>
 
