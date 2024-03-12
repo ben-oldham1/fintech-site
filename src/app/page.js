@@ -4,7 +4,6 @@ import StatCard from "@/ui/StatCard";
 import Button from "@/ui/Button";
 import FadeIn from "@/ui/FadeIn";
 import Accordion from "@/components/Accordion";
-import Modal from "@/components/Modal";
 
 export default function Home() {
   const accordionItems = [
