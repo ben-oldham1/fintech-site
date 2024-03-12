@@ -1,84 +1,98 @@
 [
     {
         "title": "Introduction to Cryptocurrency Investing",
+        "imgPath": "bitcoin1",
         "topic": "Crypto",
         "date": "8 Jan 2024",
         "level": "beginner"
     },
     {
         "title": "Stock Market Fundamentals for Beginners",
+        "imgPath": "general1",
         "topic": "Stocks",
         "date": "13 Dec 2023",
         "level": "beginner"
     },
     {
         "title": "Analysing Market Trends: A Technical Analysis Guide",
+        "imgPath": "general2",
         "topic": "Markets",
         "date": "9 Dec 2023",
         "level": "intermediate"
     },
     {
         "title": "Crypto Investment Strategies for Advanced Investors",
+        "imgPath": "strategy1",
         "topic": "Crypto",
         "date": "5 Dec 2023",
         "level": "advanced"
     },
     {
         "title": "Diversification: The Key to Successful Portfolio Management",
+        "imgPath": "strategy2",
         "topic": "Stocks",
         "date": "28 Nov 2023",
         "level": "intermediate"
     },
     {
         "title": "Understanding Options Trading in the Stock Market",
+        "imgPath": "general3",
         "topic": "Stocks",
         "date": "22 Nov 2023",
         "level": "advanced"
     },
     {
         "title": "Crypto Market Analysis: Identifying Promising Altcoins",
+        "imgPath": "bitcoin1",
         "topic": "Crypto",
         "date": "19 Nov 2023",
         "level": "intermediate"
     },
     {
         "title": "The Role of Economic Indicators in Investment Decision-Making",
+        "imgPath": "general4",
         "topic": "Markets",
         "date": "14 Nov 2023",
         "level": "advanced"
     },
     {
         "title": "Demystifying Blockchain Technology in Crypto Investments",
+        "imgPath": "general2",
         "topic": "Crypto",
         "date": "4 Nov 2023",
         "level": "beginner"
     },
     {
         "title": "Value Investing: A Time-Tested Approach in Stock Markets",
+        "imgPath": "general1",
         "topic": "Stocks",
         "date": "1 Nov 2023",
         "level": "intermediate"
     },
     {
         "title": "Global Economic Indicators and Their Impact on Financial Markets",
+        "imgPath": "general2",
         "topic": "Markets",
         "date": "24 Oct 2023",
         "level": "intermediate"
     },
     {
         "title": "Advanced Crypto Trading Techniques: Leveraging Derivatives",
+        "imgPath": "bitcoin2",
         "topic": "Crypto",
         "date": "20 Oct 2023",
         "level": "advanced"
     },
     {
         "title": "Stock Market Analysis: Fundamental vs. Technical Approaches",
+        "imgPath": "strategy3",
         "topic": "Stocks",
         "date": "18 Oct 2023",
         "level": "intermediate"
     },
     {
         "title": "Market Sentiment Analysis: Understanding Investor Psychology",
+        "imgPath": "general3",
         "topic": "Markets",
         "date": "6 Oct 2023",
         "level": "intermediate"
