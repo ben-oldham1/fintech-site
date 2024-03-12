@@ -6,9 +6,12 @@ const SectionHeader = (props) => {
             <h1 className='text-4xl font-bold mb-5'>
                 {props.header}
             </h1>
-            <p className='text-xl sm:px-16 xl:px-64'>
-                {props.subtext}
-            </p>
+            
+            {props.subtext && (
+                <p className='text-lg sm:px-16 xl:px-64'>
+                    {props.subtext}
+                </p>
+            )}
         </div>
     );
 };

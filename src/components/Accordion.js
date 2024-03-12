@@ -14,16 +14,18 @@ const Accordion = ({ items }) => {
             {items.map((item, index) => (
                 <div key={index} className="mb-2">
                     <div
-                        className="bg-gray-200 p-2 cursor-pointer"
+                        className="bg-gray-200 p-2 cursor-pointer flex justify-between items-center"
                         onClick={() => handleToggle(index)}
                     >
-                        <h3 className="text-lg font-semibold"><i class="bi bi-plus"></i> {item.title}</h3>
+                        <h3 className="text-2xl font-semibold">{item.title}</h3>
+                        <i className={`bi ${activeIndex === index ? 'bi-dash' : 'bi-plus'}`}></i>
                     </div>
-                    {activeIndex === index && (
-                        <div className="bg-white p-2">
-                            <p className="text-gray-700">{item.content}</p>
-                        </div>
-                    )}
+                    <div
+                        className={`bg-white px-2 transition-all duration-300 ${activeIndex === index ? 'max-h-screen opacity-100' : 'max-h-0 opacity-0'
+                            } overflow-hidden`}
+                    >
+                        <p className="text-gray-700 text-lg">{item.content}</p>
+                    </div>
                 </div>
             ))}
         </div>

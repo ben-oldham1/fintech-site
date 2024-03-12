@@ -5,7 +5,7 @@ import FadeIn from "@/ui/FadeIn";
 
 export default function Company() {
     const accordionItems = [
-        { title: 'Monitoring at a glance', content: 'View your portfolio diversification and track individual asset performance.' },
+        { title: 'Monitoring at a glance', content: 'View your portfolio diversification and track individual asset performance. View your portfolio diversification and track individual asset performance. View your portfolio diversification and track individual asset performance.' },
         { title: 'Current & historical data', content: 'Content for section 2...' },
         { title: 'Price & market alerts', content: 'Content for section 3...' },
     ];
@@ -25,7 +25,7 @@ export default function Company() {
                     subtext="With customer support that’s second to none, you can be sure you’ll always find the answers you need."
                 />
 
-                <div class="grid grid-cols-2 gap-4">
+                <div className="grid grid-cols-2 gap-4">
                     <FadeIn delay={0.4}>
                         <BulletPoint text="Speak to a real human 24/7 with in-app live chat" />
                     </FadeIn>
@@ -49,10 +49,14 @@ export default function Company() {
             <section className="my-24 mx-12 lg:mx-32">
                 <SectionHeader
                     header="What drives us"
-                    subtext="Our mission is to break down the barriers to investing. We aim to provide a user-friendly, intuitive platform that not only facilitates trading, but also educates and empowers our users to make informed financial decisions."
+                    subtext="Our mission is to break down the barriers to investing by educating and empowering our users to make informed financial decisions."
                 />
 
-                <Accordion items={accordionItems} />
+                <div className="grid grid-cols-2 gap-4 mt-5">
+                    <img src={'/img-assets/articleImages/general1.jpg'} className='object-cover w-full' alt="" />
+
+                    <Accordion items={accordionItems} />
+                </div>
 
             </section>
         </>

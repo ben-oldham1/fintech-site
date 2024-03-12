@@ -10,7 +10,7 @@ export default function Article() {
                 <div className="basis-3/5">
                     <header className='mb-5'>
                         <div className='mb-5'>
-                            <span className="border-2 border-dark text-dark py-1 px-3 rounded-full text-sm font-bold">Cryptocurrencies</span>
+                            <span className="border-2 border-dark text-dark py-1 px-3 rounded-full text-sm font-bold">Example Article</span>
                         </div>
 
                         <h1 className='text-4xl font-bold mb-3'>A beginners guide to blockchain</h1>
@@ -25,12 +25,12 @@ export default function Article() {
 
                         <figure className='mb-4'>
                             <Image src="/article/blockchain-img1.jpg" width={800} height={800} />
-                            <figcaption className='opacity-50 text-sm italic'>
+                            <figcaption className='opacity-50 text-sm'>
                                 Image attribution via Pexels
                             </figcaption>
                         </figure>
 
-                        <p className='mb-2 font-semibold'>
+                        <p className='mb-2 font-semibold text-lg'>
                             In recent years, the term "blockchain" has become synonymous with the world of cryptocurrencies, especially with the rise of Bitcoin and other digital assets. While the concept may seem complex at first glance, understanding blockchain is essential for anyone looking to delve into the fascinating realm of cryptocurrencies. In this beginner's guide, we will demystify blockchain technology and explore its role in the world of digital currencies.
                         </p>
 
@@ -52,7 +52,7 @@ export default function Article() {
                         </p>
                         <figure className='mb-4'>
                             <Image src="/article/blockchain-diagram.jpeg" width={800} height={800} />
-                            <figcaption className='opacity-50 text-sm italic'>
+                            <figcaption className='opacity-50 text-sm'>
                                 Image attribution via <Link href={'https://prev.slalom.com/insights/how-blockchain-will-disrupt-your-industry'}>slalom.com</Link>
                             </figcaption>
                         </figure>
