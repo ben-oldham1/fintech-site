@@ -9,7 +9,10 @@ export default function Home() {
     <>
       {/* THE HERO SECTION */}
       <section className='bg-gray-light'>
-        <div className='h-[calc(100vh-56px)] px-10 grid grid-cols-1 items-center gap-4 md:grid-cols-5'>
+        <div className='h-[calc(100vh-56px)] px-10 grid grid-cols-1 items-center gap-4 lg:grid-cols-5'>
+          <div className="hidden lg:block">
+            <Image src={'/img-assets/iphone-mockup.png'} width={270} height={270} />
+          </div>
           <div className="md:col-span-3">
             <p className='text-xl font-light'><i className="bi bi-award"></i> iPhone app of the year (2024)</p>
             <h1 className='text-5xl my-2 leading-tight font-bold'>Take charge of your financial future with confidence and ease</h1>
@@ -19,9 +22,6 @@ export default function Home() {
               <Image src={'/img-assets/app-store.svg'} width={0} height={0} style={{ width: 'auto', height: '40px' }} />
               <Image src={'/img-assets/play-store.svg'} width={0} height={0} style={{ width: 'auto', height: '40px' }} />
             </div>
-          </div>
-          <div className="hidden md:block">
-            <Image src={'/img-assets/iphone-mockup.png'} width={200} height={200} />
           </div>
         </div>
       </section>
@@ -68,13 +68,8 @@ export default function Home() {
 
       {/* GENERAL INFO SECTION TWO */}
       <section className='bg-light'>
-        <div className='py-32 px-10 grid grid-cols-1 gap-32 md:grid-cols-2'>
-
-          <div className="mx-auto">
-            <img src={'/img-assets/iphone-mockup.png'} width={250} height={250} />
-          </div>
-
-          <div className="">
+        <div className='py-24 px-10 grid grid-cols-1 gap-32 md:grid-cols-2'>
+          <div className="self-center">
             <FadeIn delay={0.2}>
               <h2 className="text-3xl mb-5 font-bold">See your portfolio at a glance</h2>
             </FadeIn>
@@ -83,6 +78,9 @@ export default function Home() {
             </FadeIn>
           </div>
 
+          <div className="mx-auto">
+            <img src={'/img-assets/iphone-mockup.png'} width={250} height={250} />
+          </div>
         </div>
 
       </section>
