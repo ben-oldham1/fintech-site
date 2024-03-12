@@ -15,7 +15,7 @@ export default function Features() {
             <section className="my-24 mx-12 lg:mx-32">
                 <SectionHeader
                     header="Invest in a wide range of assets"
-                    subtext="Explore a wide range of investment opportunities, from traditional stocks to the latest cryptocurrencies"
+                    subtext="Explore a wide range of investment opportunities, from traditional stocks to the latest cryptocurrencies."
                 />
 
                 <div className="grid grid-cols-2 gap-24 justify-between">
