@@ -31,7 +31,7 @@ export default function Article() {
                         </figure>
 
                         <p className='mb-2 font-semibold text-lg'>
-                            In recent years, the term "blockchain" has become synonymous with the world of cryptocurrencies, especially with the rise of Bitcoin and other digital assets. While the concept may seem complex at first glance, understanding blockchain is essential for anyone looking to delve into the fascinating realm of cryptocurrencies. In this beginner's guide, we will demystify blockchain technology and explore its role in the world of digital currencies.
+                            In recent years, the term &quot; blockchain&quot; has become synonymous with the world of cryptocurrencies, especially with the rise of Bitcoin and other digital assets.While the concept may seem complex at first glance, understanding blockchain is essential for anyone looking to delve into the fascinating realm of cryptocurrencies.In this beginner&apos;s guide, we will demystify blockchain technology and explore its role in the world of digital currencies.
                         </p>
 
                         <p className='mb-2'>
@@ -77,7 +77,7 @@ export default function Article() {
 
                         <h2 className='mt-6 mb-2 text-2xl font-bold' id='Conclusion'>Conclusion</h2>
                         <p className='mb-2'>
-                            As you embark on your journey into the world of cryptocurrencies, understanding blockchain is essential. Its decentralized, transparent, and secure nature has not only revolutionized the financial industry but also opened the door to countless possibilities across various sectors. By grasping the fundamentals of blockchain, you'll be better equipped to navigate the exciting and ever-evolving landscape of digital currencies.
+                            As you embark on your journey into the world of cryptocurrencies, understanding blockchain is essential.Its decentralized, transparent, and secure nature has not only revolutionized the financial industry but also opened the door to countless possibilities across various sectors.By grasping the fundamentals of blockchain, you&apos;ll be better equipped to navigate the exciting and ever-evolving landscape of digital currencies.
                         </p>
 
                     </section>
