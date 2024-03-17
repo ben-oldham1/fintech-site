@@ -4,6 +4,7 @@ import StatCard from "@/ui/StatCard";
 import Button from "@/ui/Button";
 import FadeIn from "@/ui/FadeIn";
 import Accordion from "@/components/Accordion";
+import AsSeen from "@/components/AsSeen";
 
 export default function Home() {
   const accordionItems = [
@@ -16,17 +17,20 @@ export default function Home() {
   return (
     <>
       {/* THE HERO SECTION */}
-      <section className='bg-gray-light'>
-        <div className='h-[calc(100vh-56px)] px-32 grid grid-cols-1 items-center lg:gap-8 xl:gap-20 lg:grid-cols-5'>
+      <section>
+        <div className='md:h-[calc(100vh-56px)] px-8 gap-8 md:px-32 grid grid-cols-1 py-16 lg:py-0 lg:grid-cols-5 lg:gap-8 xl:gap-20 items-center'>
           <div className="hidden lg:block">
             <Image src={'/img-assets/home-screenshot.png'} width={350} height={350} />
           </div>
+          <div className="lg:hidden w-1/2">
+            <Image src={'/img-assets/home-screenshot-half.png'} width={350} height={350} />
+          </div>
           <div className="lg:col-span-4">
             <p className='text-xl font-light'><i className="bi bi-award"></i> iPhone app of the year (2024)</p>
-            <h1 className='text-5xl my-2 leading-tight font-bold'>Take charge of your financial future with confidence and ease</h1>
+            <h1 className='text-4xl lg:text-5xl my-2 leading-tight font-bold'>Take charge of your financial future with confidence and ease</h1>
             <p className="text-md font-light">14 day free trial</p>
 
-            <div className="mt-16 flex flex-row gap-x-2">
+            <div className="mt-8 lg:mt-16 flex flex-row gap-x-2">
               <Image src={'/img-assets/app-store.svg'} width={0} height={0} style={{ width: 'auto', height: '40px' }} />
               <Image src={'/img-assets/play-store.svg'} width={0} height={0} style={{ width: 'auto', height: '40px' }} />
             </div>
@@ -34,9 +38,12 @@ export default function Home() {
         </div>
       </section>
 
+      {/* 'AS FEATURED' SECTION */}
+      <AsSeen />
+
       {/* GENERAL INFO SECTION ONE */}
       <section className='bg-light'>
-        <div className='py-32 px-10 grid grid-cols-1 gap-32 md:grid-cols-2'>
+        <div className='py-16 md:py-32 px-10 grid grid-cols-1 gap-16 md:gap-32 md:grid-cols-2'>
           <div>
             <FadeIn delay={0.2}>
               <p className="text-3xl mb-8">
@@ -76,7 +83,7 @@ export default function Home() {
 
       {/* GENERAL INFO SECTION TWO */}
       <section className='bg-light'>
-        <div className='py-24 px-10 grid grid-cols-1 gap-32 md:grid-cols-2'>
+        <div className='py-16 md:py-24 px-10 grid grid-cols-1 gap-16 md:gap-32 md:grid-cols-2'>
           <div className="mx-auto">
             <img src={'/img-assets/home-screenshot.png'} width={150} height={150} />
           </div>
@@ -95,7 +102,7 @@ export default function Home() {
 
       {/* GENERAL INFO SECTION THREE */}
       <section className='bg-light'>
-        <div className='py-24 px-10 grid grid-cols-1 gap-32 md:grid-cols-2'>
+        <div className='py-16 md:py-24 px-10 grid grid-cols-1 gap-16 md:gap-32 md:grid-cols-2'>
 
           <div className="self-center">
             <FadeIn delay={0.2}>
@@ -107,9 +114,9 @@ export default function Home() {
 
             <FadeIn delay={0.2}>
               <div className="mt-8">
-              <Button href="/download" variant="dark">
-                Start investing
-              </Button>
+                <Button href="/download" variant="dark">
+                  Start investing
+                </Button>
               </div>
             </FadeIn>
           </div>

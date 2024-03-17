@@ -14,7 +14,7 @@ const Footer = () => {
                     <p className="text-light font-light">Your future, simplified</p>
                 </div>
 
-                <div className="flex flex-row justify-between text-md mb-3">
+                <div className="flex flex-col md:flex-row justify-between text-md mb-3">
                     <div className="flex flex-row gap-5 text-light">
                         <Image src={'/img-assets/app-store.svg'} width={0} height={0} style={{ width: 'auto', height: '40px' }} />
                         <Image src={'/img-assets/play-store.svg'} width={0} height={0} style={{ width: 'auto', height: '40px' }} />
