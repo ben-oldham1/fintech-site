@@ -1,6 +1,7 @@
 import SectionHeader from "@/components/SectionHeader";
 import BulletPoint from "@/components/BulletPoint";
 import Accordion from "@/components/Accordion";
+import EmailSignup from "@/components/EmailSignup";
 import FadeIn from "@/ui/FadeIn";
 
 export default function Company() {
@@ -17,6 +18,10 @@ export default function Company() {
                     header="Sign up to the TradeEase newsletter"
                     subtext="A weekly summary of the latest news and insights, direct from our experts."
                 />
+
+                <div className="flex flex-row justify-center">
+                    <EmailSignup variant="light" />
+                </div>
             </section>
 
             <section className="my-24 mx-12 lg:mx-32">
@@ -37,6 +42,14 @@ export default function Company() {
                     <FadeIn delay={0.8}>
                         <BulletPoint text="96%* of users would recommend our customer service" />
                     </FadeIn>
+
+                    <FadeIn delay={0.8}>
+                        <BulletPoint text="96%* of users would recommend our customer service" />
+                    </FadeIn>
+
+                    <FadeIn delay={0.8}>
+                        <BulletPoint text="96%* of users would recommend our customer service" />
+                    </FadeIn>
                 </div>
 
                 <div className="flex flex-row justify-center mt-5">
@@ -46,16 +59,22 @@ export default function Company() {
                 </div>
             </section>
 
-            <section className="my-24 mx-12 lg:mx-32">
-                <SectionHeader
-                    header="What drives us"
-                    subtext="Our mission is to break down the barriers to investing by educating and empowering our users to make informed financial decisions."
-                />
+            <section className='bg-light'>
+                <div className='py-16 md:py-24 px-10 grid grid-cols-1 gap-16 md:gap-32 md:grid-cols-2'>
 
-                <div className="grid grid-cols-2 gap-4 mt-5">
-                    <img src={'/img-assets/articleImages/general1.jpg'} className='object-cover w-full' alt="" />
+                    <div className="self-center">
+                        <FadeIn delay={0.2}>
+                            <h2 className="text-3xl mb-5 font-bold">What drives us?</h2>
+                        </FadeIn>
+                        <FadeIn delay={0.4}>
+                            <p className="text-2xl">Our mission is to break down the barriers to investing by educating and empowering our users to make informed financial decisions.</p>
+                        </FadeIn>
+                    </div>
 
-                    <Accordion items={accordionItems} />
+                    <div className="self-center">
+                        <Accordion items={accordionItems} />
+                    </div>
+
                 </div>
 
             </section>
