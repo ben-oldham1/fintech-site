@@ -42,22 +42,22 @@ const Navbar = () => {
                     <ul className="flex flex-col items-center mt-4 md:flex-row md:space-x-10 md:mt-0 md:text-sm md:font-medium">
                         <li>
                             <Link href="/">
-                                <span className={`block py-2 pr-4 pl-3 text-light md:p-0 hover:text-gray-light ${pathname.includes('/') ? 'font-bold' : ''} cursor-pointer`}>Overview</span>
+                                <span className={`block py-2 pr-4 pl-3 text-light md:p-0 hover:text-gray-light ${pathname == '/' ? 'font-bold' : ''} cursor-pointer`}>Overview</span>
                             </Link>
                         </li>
                         <li>
                             <Link href="/features">
-                                <span className={`block py-2 pr-4 pl-3 text-light md:p-0 hover:text-gray-light ${pathname.includes('/features') ? 'font-bold' : ''} cursor-pointer`}>Features</span>
+                                <span className={`block py-2 pr-4 pl-3 text-light md:p-0 hover:text-gray-light ${pathname == '/features' ? 'font-bold' : ''} cursor-pointer`}>Features</span>
                             </Link>
                         </li>
                         <li>
                             <Link href="/learn">
-                                <span className={`block py-2 pr-4 pl-3 text-light md:p-0 hover:text-gray-light ${pathname.includes('/learn') ? 'font-bold' : ''} cursor-pointer`}>Learn</span>
+                                <span className={`block py-2 pr-4 pl-3 text-light md:p-0 hover:text-gray-light ${pathname == '/learn' ? 'font-bold' : ''} cursor-pointer`}>Learn</span>
                             </Link>
                         </li>
                         <li>
                             <Link href="/company">
-                                <span className={`block py-2 pr-4 pl-3 text-light md:p-0 hover:text-gray-light ${pathname.includes('/company') ? 'font-bold' : ''} cursor-pointer`}>Company</span>
+                                <span className={`block py-2 pr-4 pl-3 text-light md:p-0 hover:text-gray-light ${pathname == '/company' ? 'font-bold' : ''} cursor-pointer`}>Company</span>
                             </Link>
                         </li>
                         <li className="mt-3 md:mt-0 md:ml-4">
