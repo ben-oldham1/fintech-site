@@ -83,12 +83,12 @@ export default function Home() {
 
       {/* GENERAL INFO SECTION TWO */}
       <section className='bg-light'>
-        <div className='py-16 md:py-24 px-10 grid grid-cols-1 gap-16 md:gap-32 md:grid-cols-2'>
-          <div className="mx-auto">
-            <img src={'/img-assets/home-screenshot.png'} width={150} height={150} />
+        <div className='py-16 md:py-24 px-10 grid grid-cols-1 gap-16 md:gap-32 md:grid-cols-5'>
+          <div className="md:col-span-2 mx-auto">
+            <img className="z-10" src={'/img-assets/home-screenshot-circle.png'} width={250} height={150} />
           </div>
 
-          <div className="self-center">
+          <div className="md:col-span-3 self-center">
             <FadeIn delay={0.2}>
               <h2 className="text-3xl mb-5 font-bold">See your portfolio at a glance</h2>
             </FadeIn>
