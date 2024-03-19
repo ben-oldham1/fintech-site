@@ -1,17 +1,32 @@
 import React from 'react';
 import Button from '@/ui/Button';
 
-function EmailSignup() {
+function EmailSignup(props) {
 
-    return (
-        <div className='flex flex-auto'>
-            <input className="border-light bg-dark text-light border-2 rounded py-1 px-3 me-2" type="email" placeholder="Your email" />
+    if (props.variant == "dark") {
+        return (
+            <div className='flex flex-row'>
+                <input className="border-light bg-dark text-light border-2 rounded w-80 py-1 px-3 me-2" type="email" placeholder="Your email" />
+    
+                <Button variant="light">
+                    Sign up
+                </Button>
+            </div>
+        );
+    }
 
-            <Button variant="light">
-                Sign up
-            </Button>
-        </div>
-    );
+    if (props.variant == "light") {
+        return (
+            <div className='flex flex-row'>
+                <input className="border-dark bg-light text-dark border-2 rounded w-80 py-1 px-3 me-2" type="email" placeholder="Your email" />
+    
+                <Button variant="dark">
+                    Sign up
+                </Button>
+            </div>
+        );
+    }
+
 }
 
 export default EmailSignup;
