@@ -12,8 +12,8 @@ import FadeIn from "@/ui/FadeIn";
 export default function AsSeen() {
     return (
         <section className='bg-dark text-light'>
-            <div className='py-12 px-10'>
-                <div className="pb-8 flex justify-center">
+            <div className='py-8 px-10'>
+                <div className="pb-6 flex justify-center">
                     <p className="text-2xl">
                         As featured in
                     </p>
