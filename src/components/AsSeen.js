@@ -18,7 +18,7 @@ export default function AsSeen() {
                         As featured in
                     </p>
                 </div>
-                <div className="grid grid-cols-2 gap-16 sm:gap-12 sm:grid-cols-5 md:gap-24 lg:gap-28 z-0">
+                <div className="grid grid-cols-2 gap-16 sm:gap-12 sm:grid-cols-5 lg:gap-28 z-0">
 
                     <div className='flex justify-center items-center'>
                         <FadeIn delay={0.2}>
