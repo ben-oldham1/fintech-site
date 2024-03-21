@@ -114,7 +114,7 @@ export default function Home() {
 
             <FadeIn delay={0.2}>
               <div className="mt-8">
-                <Button href="/download" variant="dark">
+                <Button href="/download" variant="orange">
                   Start investing
                 </Button>
               </div>
