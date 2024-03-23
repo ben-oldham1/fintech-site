@@ -18,7 +18,9 @@ const Accordion = ({ items }) => {
                         onClick={() => handleToggle(index)}
                     >
                         <h3 className="text-2xl font-semibold">{item.title}</h3>
-                        <i className={`bi ${activeIndex === index ? 'bi-dash' : 'bi-plus'}`}></i>
+                        <h3 className='text-xl'>
+                            <i className={`bi ${activeIndex === index ? 'bi-dash-lg' : 'bi-plus-lg'}`}></i>
+                        </h3>
                     </div>
                     <div
                         className={`bg-white px-2 transition-all duration-300 ${activeIndex === index ? 'max-h-screen opacity-100' : 'max-h-0 opacity-0'
