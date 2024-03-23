@@ -1,6 +1,12 @@
+
+
 import React from 'react';
+import ArticleCard from "@/components/ArticleCard";
 import Image from 'next/image';
 import Link from 'next/link';
+
+import Articles from "@/data/Articles";
+
 
 export default function Article() {
 
@@ -85,10 +91,10 @@ export default function Article() {
                 </div>
 
                 <div className="basis-2/5 px-10">
-                    <aside className='fixed'>
+                    <aside>
 
                         <div>
-                            <p className='text-xl font-bold'>Key takeaways</p>
+                            <p className='text-xl font-bold mb-2'>Key takeaways</p>
 
                             <ul className='list-disc space-y-4'>
                                 <li>Blockchain is a decentralized, distributed ledger technology that enhances security and transparency in digital transactions, underpinning the operation of cryptocurrencies.</li>
@@ -98,7 +104,7 @@ export default function Article() {
                         </div>
 
                         <div>
-                            <p className='mt-5 text-xl font-bold'>Further reading</p>
+                            <p className='mt-5 text-xl font-bold mb-2'>Further reading</p>
                             <ul>
                                 <li>
                                     <a className='hover:underline hover:text-orange' href='https://stellar.org/learn/blockchain-basics'>
@@ -120,6 +126,18 @@ export default function Article() {
                             </ul>
                         </div>
                     </aside>
+                </div>
+            </div>
+
+            <div className='mb-12 mx-16 lg:mx-32'>
+                <h2 className='text-3xl font-bold mb-3'>Related articles</h2>
+
+                <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-4 gap-4">
+                    {
+                        Articles.slice(0, 4).map((item, index) => (
+                                <ArticleCard key={index} articleData={item} />
+                        ))
+                    }
                 </div>
             </div>
         </>
