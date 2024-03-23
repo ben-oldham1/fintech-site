@@ -6,14 +6,14 @@ import FadeIn from "@/ui/FadeIn";
 
 export default function Company() {
     const accordionItems = [
-        { title: 'Monitoring at a glance', content: 'View your portfolio diversification and track individual asset performance. View your portfolio diversification and track individual asset performance. View your portfolio diversification and track individual asset performance.' },
-        { title: 'Current & historical data', content: 'Content for section 2...' },
-        { title: 'Price & market alerts', content: 'Content for section 3...' },
+        { title: 'Monitoring at a glance', content: 'Enjoy real-time financial insights with our user-friendly dashboard. Designed for efficiency, it allows you to quickly understand your financial landscape through intuitive graphics and essential metrics. Stay informed, effortlessly.' },
+        { title: 'Current & historical data', content: 'Access comprehensive data with ease. Our platform provides not only the latest financial information but also historical data, enabling you to track trends, analyze performance over time, and make informed decisions based on a rich data history.' },
+        { title: 'Price & market alerts', content: 'Never miss an important market movement again. Set personalised alerts for price changes and market news directly within the app. Stay ahead with timely notifications that keep you informed of the financial changes that matter to you.' },
     ];
 
     return (
         <>
-            <section className="my-24 mx-12 lg:mx-32">
+            <section className="mt-24 mb-32 mx-12 lg:mx-32">
                 <SectionHeader
                     header="Sign up to the TradeEase newsletter"
                     subtext="A weekly summary of the latest news and insights, direct from our experts."
@@ -35,21 +35,22 @@ export default function Company() {
                         <BulletPoint text="Speak to a real human 24/7 with in-app live chat" />
                     </FadeIn>
 
+                    <FadeIn delay={0.8}>
+                        <BulletPoint text="96%* of users would recommend our customer service" />
+                    </FadeIn>
+
+                    <FadeIn delay={0.8}>
+                        <BulletPoint text="Our customer service team are highly trained and knowledgable on finance" />
+                    </FadeIn>
+
+                    <FadeIn delay={0.8}>
+                        <BulletPoint text="Get instant answers with our comprehensive online help centre" />
+                    </FadeIn>
+
                     <FadeIn delay={0.6}>
                         <BulletPoint text="Priority support for premium users" />
                     </FadeIn>
 
-                    <FadeIn delay={0.8}>
-                        <BulletPoint text="96%* of users would recommend our customer service" />
-                    </FadeIn>
-
-                    <FadeIn delay={0.8}>
-                        <BulletPoint text="96%* of users would recommend our customer service" />
-                    </FadeIn>
-
-                    <FadeIn delay={0.8}>
-                        <BulletPoint text="96%* of users would recommend our customer service" />
-                    </FadeIn>
                 </div>
 
                 <div className="flex flex-row justify-center mt-5">
@@ -60,7 +61,7 @@ export default function Company() {
             </section>
 
             <section className='bg-light'>
-                <div className='py-16 md:py-24 px-10 grid grid-cols-1 gap-16 md:gap-32 md:grid-cols-2'>
+                <div className='pb-16 md:pb-20 px-10 grid grid-cols-1 gap-16 md:gap-32 md:grid-cols-2'>
 
                     <div className="self-center">
                         <FadeIn delay={0.2}>
@@ -76,7 +77,6 @@ export default function Company() {
                     </div>
 
                 </div>
-
             </section>
         </>
     )
