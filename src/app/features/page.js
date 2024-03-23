@@ -1,7 +1,7 @@
 import SectionHeader from "@/components/SectionHeader";
 import Accordion from "@/components/Accordion";
 import AssetCard from "@/components/AssetCard";
-import FadeIn from "@/ui/FadeIn";
+import FadeIn from "@/components/FadeIn";
 
 export default function Features() {
     const portfolioTrackingAccordion = [

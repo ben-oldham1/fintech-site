@@ -7,7 +7,7 @@ import Logo3 from "../../public/img-assets/asSeen/Logo3.svg";
 import Logo4 from "../../public/img-assets/asSeen/Logo4.svg";
 import Logo5 from "../../public/img-assets/asSeen/Logo5.svg";
 
-import FadeIn from "@/ui/FadeIn";
+import FadeIn from "@/components/FadeIn";
 
 export default function AsSeen() {
     return (

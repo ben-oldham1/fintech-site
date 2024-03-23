@@ -1,8 +1,8 @@
 import Image from "next/image";
 
-import StatCard from "@/ui/StatCard";
-import Button from "@/ui/Button";
-import FadeIn from "@/ui/FadeIn";
+import StatCard from "@/components/StatCard";
+import Button from "@/components/Button";
+import FadeIn from "@/components/FadeIn";
 import Accordion from "@/components/Accordion";
 import AsSeen from "@/components/AsSeen";
 
@@ -114,7 +114,7 @@ export default function Home() {
 
             <FadeIn delay={0.2}>
               <div className="mt-8">
-                <Button href="/download" variant="orange">
+                <Button href="https://www.benoldham.dev" variant="orange">
                   Start investing
                 </Button>
               </div>

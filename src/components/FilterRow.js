@@ -1,5 +1,5 @@
 import React from 'react';
-import FilterBadge from "@/ui/FilterBadge";
+import FilterBadge from "./FilterBadge";
 
 export default function FilterRow(props) {
 

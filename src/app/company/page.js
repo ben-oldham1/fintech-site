@@ -2,7 +2,7 @@ import SectionHeader from "@/components/SectionHeader";
 import BulletPoint from "@/components/BulletPoint";
 import Accordion from "@/components/Accordion";
 import EmailSignup from "@/components/EmailSignup";
-import FadeIn from "@/ui/FadeIn";
+import FadeIn from "@/components/FadeIn";
 
 export default function Company() {
     const accordionItems = [

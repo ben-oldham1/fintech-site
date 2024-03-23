@@ -4,7 +4,7 @@ import React, { useState } from 'react';
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 
-import Button from '@/ui/Button';
+import Button from './Button';
 
 const Navbar = () => {
     const pathname = usePathname();

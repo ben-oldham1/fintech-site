@@ -7,9 +7,6 @@
       "@/components/*": [
         "./src/components/*"
       ],
-      "@/ui/*": [
-        "./src/ui/*"
-      ],
       "@/data/*": [
         "./src/data/*"
       ]
