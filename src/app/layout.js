@@ -5,8 +5,11 @@ import "bootstrap-icons/font/bootstrap-icons.css";
 import NavBar from "@/components/NavBar";
 import Footer from "@/components/Footer";
 
+import Script from "next/script";
+const GA_MEASUREMENT_ID = process.env.NEXT_PUBLIC_MEASUREMENT_ID;
+
 export const metadata = {
-  title: 'TradeEase',
+  title: 'TradeEase | Ben Oldham Porfolio',
   description: 'Take control of your financial future with the TradeEase app.',
 }
 
@@ -31,6 +34,19 @@ export default function RootLayout({ children }) {
         </div>
 
       </body>
+
+      <Script
+        src={`https://www.googletagmanager.com/gtag/js?id=${GA_MEASUREMENT_ID}`}
+        strategy="afterInteractive"
+      />
+      <Script id="google-analytics" strategy="afterInteractive">
+        {`
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){window.dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', '${GA_MEASUREMENT_ID}');
+  `}
+      </Script>
     </html>
   )
 }
