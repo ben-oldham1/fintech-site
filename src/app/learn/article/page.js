@@ -12,8 +12,8 @@ export default function Article() {
 
     return (
         <>
-            <div className="flex flex-row m-12 mx-16 lg:mx-32">
-                <div className="basis-3/5">
+            <div className="flex flex-row my-8 mx-6 sm:my-12 sm:mx-16 lg:mx-32">
+                <div className="md:basis-3/5">
                     <header className='mb-5'>
                         <div className='mb-5'>
                             <span className="border-2 border-dark text-dark py-1 px-3 rounded-full text-sm font-bold">Example Article</span>
@@ -36,7 +36,7 @@ export default function Article() {
                             </figcaption>
                         </figure>
 
-                        <p className='mb-2 font-semibold text-lg'>
+                        <p className='mb-2 font-semibold md:text-lg'>
                             In recent years, the term &quot; blockchain&quot; has become synonymous with the world of cryptocurrencies, especially with the rise of Bitcoin and other digital assets.While the concept may seem complex at first glance, understanding blockchain is essential for anyone looking to delve into the fascinating realm of cryptocurrencies.In this beginner&apos;s guide, we will demystify blockchain technology and explore its role in the world of digital currencies.
                         </p>
 
@@ -90,7 +90,7 @@ export default function Article() {
 
                 </div>
 
-                <div className="basis-2/5 px-10">
+                <div className="md:basis-2/5 hidden md:block px-10">
                     <aside>
 
                         <div>

@@ -30,7 +30,7 @@ export default function Company() {
                     subtext="With customer support that’s second to none, you can be sure you’ll always find the answers you need."
                 />
 
-                <div className="grid grid-cols-2 gap-4">
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                     <FadeIn delay={0.4}>
                         <BulletPoint text="Speak to a real human 24/7 with in-app live chat" />
                     </FadeIn>

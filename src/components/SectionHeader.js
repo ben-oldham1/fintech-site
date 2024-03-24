@@ -2,7 +2,7 @@ import React from 'react';
 
 const SectionHeader = (props) => {
     return (
-        <div className='text-center mb-10 px-10'>
+        <div className='text-center mb-10 md:px-10'>
             <h1 className='text-4xl font-bold mb-5'>
                 {props.header}
             </h1>
