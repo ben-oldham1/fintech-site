@@ -19,7 +19,7 @@ const poppins = Poppins({
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en" className={`${poppins.variable}` + ' bg-dark'}>
+    <html lang="en" className={`${poppins.variable}` + ' bg-dark w-screen'}>
       <body className='selection:bg-orange selection:text-light'>
 
         <div className='bg-light'>

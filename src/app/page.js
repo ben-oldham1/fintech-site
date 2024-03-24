@@ -30,7 +30,7 @@ export default function Home() {
             <h1 className='text-4xl lg:text-5xl my-2 leading-tight font-bold'>Take charge of your financial future with confidence and ease</h1>
             <p className="text-md font-light">14 day free trial</p>
 
-            <div className="mt-8 lg:mt-16 flex flex-row gap-x-2">
+            <div className="mt-8 lg:mt-16 flex flex-row flex-wrap gap-x-2">
               <Image src={'/img-assets/app-store.svg'} width={0} height={0} style={{ width: 'auto', height: '40px' }} />
               <Image src={'/img-assets/play-store.svg'} width={0} height={0} style={{ width: 'auto', height: '40px' }} />
             </div>

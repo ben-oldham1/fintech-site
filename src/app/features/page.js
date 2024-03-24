@@ -24,7 +24,7 @@ export default function Features() {
                     subtext="Explore a wide range of investment opportunities, from traditional stocks to the latest cryptocurrencies."
                 />
 
-                <div className="grid grid-cols-2 gap-x-24 gap-y-16 justify-between">
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-x-24 gap-y-16 justify-between">
                     <FadeIn delay={0.4}>
                         <AssetCard
                             title="Stocks"
