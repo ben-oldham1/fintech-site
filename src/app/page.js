@@ -43,7 +43,7 @@ export default function Home() {
 
       {/* GENERAL INFO SECTION ONE */}
       <section className='w-4/5 2xl:w-3/5 mx-auto bg-light'>
-        <div className='py-16 md:py-32 px-10 grid grid-cols-1 gap-16 md:gap-32 md:grid-cols-2'>
+        <div className='py-16 md:py-32 grid grid-cols-1 gap-16 md:gap-32 md:grid-cols-2'>
           <div>
             <FadeIn delay={0.2}>
               <p className="text-3xl mb-8">
@@ -83,7 +83,7 @@ export default function Home() {
 
       {/* GENERAL INFO SECTION TWO */}
       <section className='w-4/5 2xl:w-3/5 mx-auto bg-light'>
-        <div className='py-16 md:py-24 px-10 grid grid-cols-1 gap-16 md:gap-32 md:grid-cols-5'>
+        <div className='py-16 md:py-24 grid grid-cols-1 gap-16 md:gap-32 md:grid-cols-5'>
           <div className="md:col-span-2 mx-auto">
             <img className="z-10" src={'/img-assets/home-screenshot-circle.png'} width={250} height={150} />
           </div>
@@ -102,7 +102,7 @@ export default function Home() {
 
       {/* GENERAL INFO SECTION THREE */}
       <section className='w-4/5 2xl:w-3/5 mx-auto bg-light'>
-        <div className='py-16 md:py-24 px-10 grid grid-cols-1 gap-16 md:gap-32 md:grid-cols-2'>
+        <div className='py-16 md:py-24 grid grid-cols-1 gap-16 md:gap-32 md:grid-cols-2'>
 
           <div className="self-center">
             <FadeIn delay={0.2}>
