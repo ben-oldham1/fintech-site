@@ -17,8 +17,8 @@ export default function Home() {
   return (
     <>
       {/* THE HERO SECTION */}
-      <section>
-        <div className='md:h-[calc(100vh-56px)] px-8 gap-8 md:px-32 grid grid-cols-1 py-16 lg:py-0 lg:grid-cols-5 lg:gap-8 xl:gap-20 items-center'>
+      <section className="2xl:w-3/5 mx-auto">
+        <div className='md:h-[calc(100vh-56px)] 2xl:h-[calc(60vh-56px)] px-8 gap-8 md:px-32 grid grid-cols-1 py-16 lg:py-0 lg:grid-cols-5 lg:gap-8 xl:gap-20 items-center'>
           <div className="hidden lg:block">
             <Image src={'/img-assets/home-screenshot.png'} width={350} height={350} />
           </div>
@@ -42,7 +42,7 @@ export default function Home() {
       <AsSeen />
 
       {/* GENERAL INFO SECTION ONE */}
-      <section className='bg-light'>
+      <section className='w-4/5 2xl:w-3/5 mx-auto bg-light'>
         <div className='py-16 md:py-32 px-10 grid grid-cols-1 gap-16 md:gap-32 md:grid-cols-2'>
           <div>
             <FadeIn delay={0.2}>
@@ -82,7 +82,7 @@ export default function Home() {
       </section>
 
       {/* GENERAL INFO SECTION TWO */}
-      <section className='bg-light'>
+      <section className='w-4/5 2xl:w-3/5 mx-auto bg-light'>
         <div className='py-16 md:py-24 px-10 grid grid-cols-1 gap-16 md:gap-32 md:grid-cols-5'>
           <div className="md:col-span-2 mx-auto">
             <img className="z-10" src={'/img-assets/home-screenshot-circle.png'} width={250} height={150} />
@@ -101,7 +101,7 @@ export default function Home() {
       </section>
 
       {/* GENERAL INFO SECTION THREE */}
-      <section className='bg-light'>
+      <section className='w-4/5 2xl:w-3/5 mx-auto bg-light'>
         <div className='py-16 md:py-24 px-10 grid grid-cols-1 gap-16 md:gap-32 md:grid-cols-2'>
 
           <div className="self-center">

@@ -12,7 +12,7 @@ export default function Article() {
 
     return (
         <>
-            <div className="flex flex-row my-8 mx-6 sm:my-12 sm:mx-16 lg:mx-32">
+            <div className="w-4/5 2xl:w-3/5 mx-auto flex flex-row my-8 sm:my-12">
                 <div className="md:basis-3/5">
                     <header className='mb-5'>
                         <div className='mb-5'>
@@ -129,7 +129,7 @@ export default function Article() {
                 </div>
             </div>
 
-            <div className='mb-12 mx-16 lg:mx-32'>
+            <div className='w-4/5 2xl:w-3/5 mx-auto mb-12'>
                 <h2 className='text-3xl font-bold mb-3'>Related articles</h2>
 
                 <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-4 gap-4">

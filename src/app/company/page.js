@@ -13,18 +13,18 @@ export default function Company() {
 
     return (
         <>
-            <section className="mt-24 mb-32 mx-12 lg:mx-32">
+            <section className="w-4/5 2xl:w-3/5 mx-auto mt-24 mb-32">
                 <SectionHeader
                     header="Sign up to the TradeEase newsletter"
                     subtext="A weekly summary of the latest news and insights, direct from our experts."
                 />
 
-                <div className="flex flex-row justify-center">
+                <div className="flex flex-col sm:flex-row justify-center">
                     <EmailSignup variant="light" />
                 </div>
             </section>
 
-            <section className="my-24 mx-12 lg:mx-32">
+            <section className="w-4/5 2xl:w-3/5 mx-auto my-24">
                 <SectionHeader
                     header="Customer service"
                     subtext="With customer support that’s second to none, you can be sure you’ll always find the answers you need."
@@ -50,25 +50,24 @@ export default function Company() {
                     <FadeIn delay={0.6}>
                         <BulletPoint text="Priority support for premium users" />
                     </FadeIn>
-
                 </div>
 
                 <div className="flex flex-row justify-center mt-5">
-                    <p className="text-sm text-gray">
+                    <p className="text-xs sm:text-sm text-gray">
                         *In a recent survey of 1825 users
                     </p>
                 </div>
             </section>
 
-            <section className='bg-light'>
-                <div className='pb-16 md:pb-20 px-10 grid grid-cols-1 gap-16 md:gap-32 md:grid-cols-2'>
+            <section className='w-4/5 2xl:w-3/5 mx-auto bg-light'>
+                <div className='pb-16 md:pb-20 grid grid-cols-1 gap-8 md:gap-16 lg:gap-32 md:grid-cols-2'>
 
                     <div className="self-center">
                         <FadeIn delay={0.2}>
-                            <h2 className="text-3xl mb-5 font-bold">What drives us?</h2>
+                            <h2 className="text-xl sm:text-2xl md:text-3xl mb-5 font-bold">What drives us?</h2>
                         </FadeIn>
                         <FadeIn delay={0.4}>
-                            <p className="text-2xl">Our mission is to break down the barriers to investing by educating and empowering our users to make informed financial decisions.</p>
+                            <p className="text-lg sm:text-xl md:text-2xl">Our mission is to break down the barriers to investing by educating and empowering our users to make informed financial decisions.</p>
                         </FadeIn>
                     </div>
 
@@ -80,4 +79,5 @@ export default function Company() {
             </section>
         </>
     )
+
 }
