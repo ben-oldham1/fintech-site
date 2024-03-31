@@ -27,7 +27,7 @@ export default function Home() {
           </div>
           <div className="lg:col-span-4">
             <p className='text-xl font-light'><i className="bi bi-award"></i> iPhone app of the year (2024)</p>
-            <h1 className='text-4xl lg:text-5xl my-2 leading-tight font-bold'>Take charge of your financial future with confidence and ease</h1>
+            <h1 className='text-4xl leading-tight lg:text-5xl my-2 lg:leading-tight font-bold'>Take charge of your financial future with confidence and ease</h1>
             <p className="text-md font-light">14 day free trial</p>
 
             <div className="mt-8 lg:mt-16 flex flex-row flex-wrap gap-x-2">
