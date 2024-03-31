@@ -15,7 +15,7 @@ export default function Learn() {
 
     return (
         <>
-            <section className="xl:w-3/5 2xl:mx-auto my-24 mx-12 lg:mx-32">
+            <section className="w-4/5 2xl:w-3/5 mx-auto my-24">
                 <SectionHeader
                     header="Learn about finance and investments"
                     subtext="Our articles are written by industry experts, covering a range of topics to help you get more from your investments."
