@@ -5,9 +5,9 @@ function EmailSignup(props) {
 
     if (props.variant == "dark") {
         return (
-            <div className='flex flex-wrap flex-row justify-center gap-y-3'>
-                <input className="border-light bg-dark text-light border-2 rounded max-w-80 md:w-80 py-1 px-3 me-2" type="email" placeholder="Your email" />
-    
+            <div className='flex flex-wrap flex-row justify-between sm:justify-center gap-y-3'>
+                <input className="border-light bg-dark text-light border-2 rounded py-1 px-3 me-2 w-full sm:w-auto" type="email" placeholder="Your email" />
+
                 <Button variant="light">
                     Sign up
                 </Button>
@@ -19,7 +19,7 @@ function EmailSignup(props) {
         return (
             <div className='flex flex-wrap flex-row justify-center gap-y-3'>
                 <input className="border-dark bg-light text-dark border-2 rounded max-w-80 md:w-80 py-1 px-3 me-2" type="email" placeholder="Your email" />
-    
+
                 <Button variant="dark">
                     Sign up
                 </Button>
