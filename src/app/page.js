@@ -18,14 +18,14 @@ export default function Home() {
     <>
       {/* THE HERO SECTION */}
       <section className="2xl:w-3/5 mx-auto">
-        <div className='md:h-[calc(100vh-56px)] 2xl:h-[calc(60vh-56px)] px-8 gap-8 md:px-32 grid grid-cols-1 py-16 lg:py-0 lg:grid-cols-5 lg:gap-8 xl:gap-20 items-center'>
+        <div className='md:min-h-[calc(100vh-56px)] 2xl:min-h-[calc(60vh-56px)] px-8 gap-8 md:px-32 flex flex-col lg:flex-row py-16 lg:py-0 items-center'>
           <div className="hidden lg:block">
             <Image src={'/img-assets/home-screenshot.png'} width={350} height={350} />
           </div>
-          <div className="lg:hidden w-1/2">
+          <div className="lg:hidden w-1/2 mr-auto">
             <Image src={'/img-assets/home-screenshot-half.png'} width={350} height={350} />
           </div>
-          <div className="lg:col-span-4">
+          <div>
             <p className='text-xl font-light'><i className="bi bi-award"></i> iPhone app of the year (2024)</p>
             <h1 className='text-4xl leading-tight lg:text-5xl my-2 lg:leading-tight font-bold'>Take charge of your financial future with confidence and ease</h1>
             <p className="text-md font-light">14 day free trial</p>

@@ -12,7 +12,7 @@ import FadeIn from "@/components/FadeIn";
 export default function AsSeen() {
     return (
         <section className='bg-dark text-light'>
-            <div className='w-4/5 2xl:w-3/5 mx-auto py-8 px-10'>
+            <div className='w-4/5 2xl:w-3/5 mx-auto py-8'>
                 <div className="pb-6 flex justify-center">
                     <p className="text-2xl">
                         As featured in
