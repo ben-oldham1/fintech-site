@@ -12,13 +12,13 @@ import FadeIn from "@/components/FadeIn";
 export default function AsSeen() {
     return (
         <section className='bg-dark text-light'>
-            <div className='2xl:w-3/5 mx-auto py-8 px-10'>
+            <div className='w-4/5 2xl:w-3/5 mx-auto py-8 px-10'>
                 <div className="pb-6 flex justify-center">
                     <p className="text-2xl">
                         As featured in
                     </p>
                 </div>
-                <div className="grid grid-cols-2 gap-16 sm:gap-12 sm:grid-cols-5 lg:gap-28 z-0">
+                <div className="grid grid-cols-2 gap-16 sm:grid-cols-3 lg:grid-cols-5 lg:gap-20 z-0">
 
                     <div className='flex justify-center items-center'>
                         <FadeIn delay={0.2}>
