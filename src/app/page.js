@@ -101,7 +101,7 @@ export default function Home() {
       </section>
 
       {/* GENERAL INFO SECTION THREE */}
-      <section className='w-4/5 2xl:w-3/5 mx-auto bg-light'>
+      <section className='w-4/5 2xl:w-3/5 mx-auto bg-light mb-20'>
         <div className='py-16 md:py-24 grid grid-cols-1 gap-16 md:gap-32 md:grid-cols-2'>
 
           <div className="self-center">
