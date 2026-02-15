@@ -17,13 +17,12 @@ const poppins = Poppins({
   subsets: ['latin'],
   weight: ['200', '300', '400', '500', '600', '700'],
   display: 'swap',
-  variable: '--font-poppins',
 })
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en" className={`${poppins.variable}` + ' bg-dark w-screen'}>
-      <body className='selection:bg-orange selection:text-light'>
+    <html lang="en" className={`${poppins.className} bg-dark w-screen`}>
+      <body className='selection:bg-orange selection:text-light font-sans'>
 
         <div className='bg-light'>
           <NavBar />
