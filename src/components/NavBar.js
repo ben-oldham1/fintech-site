@@ -39,7 +39,7 @@ const Navbar = () => {
                 </div>
 
                 <div className={`${isOpen ? 'block' : 'hidden'} w-full md:block md:w-auto`} id="navbar-default">
-                    <ul className="flex flex-col items-center mt-4 md:flex-row md:space-x-10 md:mt-0 md:text-sm md:font-medium">
+                    <ul className="flex flex-col items-start md:items-center mt-4 md:flex-row md:space-x-6 md:mt-0 md:text-sm md:font-medium">
                         <li>
                             <Link href="/">
                                 <span className={`block py-2 pr-4 pl-3 text-light md:p-0 hover:text-gray-light ${pathname == '/' ? 'font-bold' : ''} cursor-pointer`}>Overview</span>
