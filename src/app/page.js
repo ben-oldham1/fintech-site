@@ -71,7 +71,7 @@ export default function Home() {
 
 
       {/* GENERAL INFO SECTION ONE */}
-      <Container className="pb-16 md:pb-24">
+      <Container className="pb-16 md:pb-32">
         <div className='grid grid-cols-1 gap-16 md:gap-32 md:grid-cols-2'>
           <div>
             <FadeIn delay={0.2}>
@@ -112,8 +112,8 @@ export default function Home() {
 
 
       {/* GENERAL INFO SECTION TWO */}
-      <Container className="pb-16 md:pb-24">
-        <div className='py-16 md:py-24 grid grid-cols-1 gap-16 md:gap-32 md:grid-cols-5'>
+      <Container className="pb-16 md:pb-32">
+        <div className='grid grid-cols-1 gap-16 md:gap-32 md:grid-cols-5'>
           <div className="md:col-span-2 mx-auto">
             <img className="z-10" src={'/img-assets/home-screenshot-circle.png'} width={250} height={150} />
           </div>
@@ -131,8 +131,8 @@ export default function Home() {
       </Container>
 
       {/* GENERAL INFO SECTION THREE */}
-      <Container className="pb-16 md:pb-24">
-        <div className='py-16 md:py-24 grid grid-cols-1 gap-16 md:gap-32 md:grid-cols-2'>
+      <Container className="pb-16 md:pb-32">
+        <div className='grid grid-cols-1 gap-16 md:gap-32 md:grid-cols-2'>
 
           <div className="self-center">
             <FadeIn delay={0.2}>
