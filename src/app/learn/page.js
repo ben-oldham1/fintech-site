@@ -2,6 +2,7 @@
 
 import React, { useState } from 'react';
 
+import Container from "@/components/Container";
 import SectionHeader from "@/components/SectionHeader";
 import FilterRow from "@/components/FilterRow";
 import ArticleCard from "@/components/ArticleCard";
@@ -15,7 +16,7 @@ export default function Learn() {
 
     return (
         <>
-            <section className="w-4/5 2xl:w-3/5 mx-auto my-24">
+            <Container className="mt-16 mb-24">
                 <SectionHeader
                     header="Learn about finance and investments"
                     subtext="Our articles are written by industry experts, covering a range of topics to help you get more from your investments."
@@ -33,7 +34,7 @@ export default function Learn() {
                         ))
                     }
                 </div>
-            </section>
+            </Container>
         </>
     )
 }
