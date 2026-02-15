@@ -1,6 +1,7 @@
 "use client"
 
 import { useState } from 'react';
+import { Plus, Minus } from "lucide-react";
 
 const Accordion = ({ items }) => {
     const [activeIndex, setActiveIndex] = useState(null);
@@ -19,11 +20,11 @@ const Accordion = ({ items }) => {
                     >
                         <h3 className="text-2xl font-semibold">{item.title}</h3>
                         <h3 className='text-xl'>
-                            <i className={`bi ${activeIndex === index ? 'bi-dash-lg' : 'bi-plus-lg'}`}></i>
+                            {activeIndex === index ? <Minus className="w-5 h-5" /> : <Plus className="w-5 h-5" />}
                         </h3>
                     </div>
                     <div
-                        className={`bg-white px-2 transition-all duration-300 ${activeIndex === index ? 'max-h-screen opacity-100' : 'max-h-0 opacity-0'
+                        className={`px-2 transition-all duration-300 ${activeIndex === index ? 'max-h-screen opacity-100' : 'max-h-0 opacity-0'
                             } overflow-hidden`}
                     >
                         <p className="text-gray-700 text-lg">{item.content}</p>

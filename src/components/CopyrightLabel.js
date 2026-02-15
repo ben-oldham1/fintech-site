@@ -5,7 +5,7 @@ function CopyrightLabel() {
 
     return (
         <Link className="text-light" href={'https://www.benoldham.dev'}>
-            <p><i className="bi bi-c-circle"></i> {new Date().getFullYear()} Ben Oldham</p>
+            <p>&#169; {new Date().getFullYear()} Ben Oldham</p>
         </Link>
     );
 }

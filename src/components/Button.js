@@ -1,5 +1,6 @@
 import React from 'react';
 import Link from 'next/link';
+import { ArrowRight } from "lucide-react";
 
 const Button = (props) => {
   const { href, variant, children } = props;
@@ -16,7 +17,7 @@ const Button = (props) => {
       type='button'
       className={'px-5 py-2 rounded ' + variantClasses[defaultVariant]}
     >
-      {children} <i className="icon bi-arrow-up-right"></i>
+      {children} <ArrowRight className="inline-block ml-2" size={16} />
     </button>
   );
 
