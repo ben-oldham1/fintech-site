@@ -1,6 +1,5 @@
 import { Poppins } from 'next/font/google'
 import './globals.css'
-import "bootstrap-icons/font/bootstrap-icons.css";
 
 import NavBar from "@/components/NavBar";
 import Footer from "@/components/Footer";
